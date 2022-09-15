@@ -1,0 +1,106 @@
+
+
+
+body { 
+    background-color: aqua;
+}
+
+
+/*
+makes a border around the anchor elements,changes color.
+*/
+a {
+    text-align: center;
+    font-size: 20px;
+    color:black;
+    border: 3px solid black;
+    padding: 20px;
+    background-color: lightblue;
+    margin: 10px;
+    border-radius: 50%;
+}
+/*
+When at a specific button background color on an anchor changes and text.
+*/
+.button {
+    background-color:black ;
+    color:white;
+}
+
+/*
+When you hover over the link text becomes white and bigger. Makes a hover animation for the links
+*/
+a:hover:not(.button) {
+    animation-name: hover_buttom;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hover_buttom {
+    0% {
+        background-color: lightblue;
+        color: black;
+        transform: scale(1);
+    }
+
+    100% {
+        background-color: black;
+        color: white;
+        transform: scale(1.1);
+    }
+}
+
+/*
+Text is bigger and centered. 
+*/
+h1 {
+    text-align: center;
+    background-color: lightblue;
+    margin: auto;
+    width: 30%;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+nav {
+    text-align: center;
+    padding:45px;
+    margin: 20px;
+}
+
+.startsida {
+    text-align: center;
+    background-color: grey;
+    border: 3px solid black;
+    padding:20px;
+    margin:20px
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+    color:lightblue;
+}
+
+p {
+    font-family: monaco;
+}
+
+ul {
+    font-size: 20px;
+}
+
+.BoxP {
+    padding: 10px;
+    border: solid 3px;
+    margin: 5px;
+    background-color: grey;
+}
+
+.img-border {
+    padding:5px;
+    border: solid 10px black;
+    border-radius: 400px;
+    background-color: aliceblue;
+}
